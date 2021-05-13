@@ -1,0 +1,114 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	color:#777;
+	background:#0CF;
+}
+    
+/*About*/
+
+.about
+{
+padding-top: 100px;
+padding-bottom: 50px;
+
+}
+.nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar 
+{
+    background-color: #000;
+}
+.navbar-brand img
+{
+    height: 50px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+
+}
+
+.contact
+{
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact row
+{
+    padding: 30px 0;
+    font-size: 22px;
+}
+.contact .col-md-4 .fa
+{
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.contact .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.contact .btn:focus
+{
+    box-shadow: none !important;
+}
+
+.contact .btn:hover
+{
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+
+.contact .btn .fa
+{
+    margin-right: 10px;
+}
+
+.footer
+{
+    background: #000;
+    height: 100px;
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.fa-heart-o
+{
+    color: red;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.container h1{
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
